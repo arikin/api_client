@@ -1,0 +1,22 @@
+{
+  "name": "arikin/api_client",
+  "license": "MIT",
+  "type": "library",
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Arikin\\RestApi\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "GuzzleHttp\\Tests\\": "./vendor/guzzlehttp/guzzle/tests/"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "require-dev": {
+
+  }
+}
