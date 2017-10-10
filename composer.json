@@ -1,8 +1,9 @@
 {
   "name": "arikin/api_client",
+  "version": "0.1.0",
   "license": "MIT",
   "type": "library",
-  "minimum-stability": "dev",
+  "minimum-stability": "dev-master",
   "autoload": {
     "psr-4": {
       "Arikin\\RestApi\\": "src/"
@@ -16,7 +17,5 @@
   "require": {
     "guzzlehttp/guzzle": "^6.3"
   },
-  "require-dev": {
-
-  }
+  "require-dev": {}
 }
