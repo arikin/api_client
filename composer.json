@@ -1,12 +1,12 @@
 {
   "name": "arikin/api_client",
-  "version": "0.1.0",
+  "version": "0.1.1-alpha",
   "license": "MIT",
   "type": "library",
-  "minimum-stability": "dev-master",
+  "minimum-stability": "alpha",
   "autoload": {
     "psr-4": {
-      "Arikin\\ApiClient": "src/"
+      "Arikin\ApiClient\": "src/"
     }
   },
   "autoload-dev": {
