@@ -1,14 +1,21 @@
 {
   "name": "arikin/api_client",
   "description": "Basic API client",
+  "version": "0.1.4",
   "type": "library",
   "license": "MIT",
   "minimum-stability": "dev",
   "require": {
     "guzzlehttp/guzzle": "^6.3"
   },
+  "autoload": {
+    "psr-4": {
+      "Arikin\\": "src/"
+    }
+  },
   "autoload-dev": {
     "psr-4": {
+      "Arikin\\": "src/",
       "GuzzleHttp\\Tests\\": "./vendor/guzzlehttp/guzzle/tests/"
     }
   }
