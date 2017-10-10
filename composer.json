@@ -6,7 +6,7 @@
   "minimum-stability": "alpha",
   "autoload": {
     "psr-4": {
-      "Arikin\ApiClient\": "src/"
+      "Arikin\ApiClient": "src/"
     }
   },
   "autoload-dev": {
