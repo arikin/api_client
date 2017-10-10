@@ -31,8 +31,9 @@ $client = new ApiClient(array(
 $resp_obj = $client->api->get('/user/list');
 $code = $resp_obj->getStatusCode();
 $reason = $resp_obj->getReasonPhrase();
+
 $body_string = (string) $resp_obj->getBody();
-$data_array = json_encode($body_string,TRUE);
+$data_array = json_decode($body_string,TRUE);
 ```
 
 
