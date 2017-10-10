@@ -1,7 +1,7 @@
 {
   "name": "arikin/api_client",
   "description": "Basic API client",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "type": "library",
   "license": "MIT",
   "minimum-stability": "dev",
