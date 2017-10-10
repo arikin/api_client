@@ -10,12 +10,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Arikin\\": "src/"
+      "Arikin\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Arikin\\": "src/",
+      "Arikin\\": "src",
       "GuzzleHttp\\Tests\\": "./vendor/guzzlehttp/guzzle/tests/"
     }
   }
