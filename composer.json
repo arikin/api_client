@@ -8,8 +8,14 @@
   "require": {
     "guzzlehttp/guzzle": "^6.3"
   },
+  "autoload": {
+    "psr-4": {
+      "Arikin\\": "src/"
+    }
+  },
   "autoload-dev": {
     "psr-4": {
+      "Arikin\\": "src/",
       "GuzzleHttp\\Tests\\": "./vendor/guzzlehttp/guzzle/tests/"
     }
   }
