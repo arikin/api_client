@@ -1,6 +1,6 @@
 {
   "name": "arikin/api_client",
-  "version": "0.1.1.0-alpha",
+  "version": "0.1.2-alpha",
   "license": "MIT",
   "type": "library",
   "minimum-stability": "alpha",
