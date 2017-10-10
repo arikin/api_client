@@ -6,7 +6,7 @@
   "minimum-stability": "dev-master",
   "autoload": {
     "psr-4": {
-      "Arikin\\RestApi\\": "src/"
+      "Arikin\\ApiClient": "src/"
     }
   },
   "autoload-dev": {
