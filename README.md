@@ -18,16 +18,21 @@ php composer.phar require arikin/api_client
 
 Require the class and initialize it with the API server's base URL and the credentials.
 ```php
+require_once __DIR__ . '/vendor/autoload.php';
+
 use Arikin\ApiClient;
 
-$api = new ApiClient(array(
+$client = new ApiClient(array(
     'url' => 'http://api.server.net',
     'user' => 'api_username',
     'pass' => 'secret_password'
  ));
 
-$user_list = $api->get('/user/list');
-
+$resp_obj = $client->api->get('/user/list');
+$code = $resp_obj->getStatusCode();
+$reason = $resp_obj->getReasonPhrase();
+$body_string = (string) $resp_obj->getBody();
+$data_array = json_encode($body_string,TRUE);
 ```
 
 
