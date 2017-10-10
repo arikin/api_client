@@ -1,11 +1,14 @@
 <?php
 
-namespace Arikin\RestApi;
+namespace Arikin;
 
 use GuzzleHttp\Client;
 
 class ApiClient
 {
+    /**
+     * API object
+     */
     public $api;
     /**
      * Options for GuzzleHttp\Client
